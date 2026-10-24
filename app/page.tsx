@@ -129,6 +129,12 @@ export default function Home({
       >
         + Listing submit karo
       </a>
+      <a
+  href="/pricing"
+  className="mt-4 ml-2 inline-block rounded-lg border border-gray-600 px-4 py-2 text-sm"
+      >
+        Top spot / Pricing
+      </a>
 
       <Suspense
         fallback={<p className="mt-8 text-gray-400">Listings load ho rahi hain...</p>}
