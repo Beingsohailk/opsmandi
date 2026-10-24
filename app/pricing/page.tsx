@@ -45,8 +45,8 @@ export default function PricingPage() {
       </ol>
 
       <div className="mt-8 rounded-xl border border-neutral-800 p-4 text-sm text-neutral-300">
-        <p>UPI ID: <span className="font-mono">YOUR_UPI_ID</span></p>
-        <p className="mt-1">Email: <span className="font-mono">YOUR_EMAIL</span></p>
+        <p>UPI ID: <span className="font-mono">suhailkhann112@ybl</span></p>
+        <p className="mt-1">Email: <span className="font-mono">sohailbagali768@gmail.com</span></p>
       </div>
 
       <p className="mt-6 text-xs text-neutral-500">
