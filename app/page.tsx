@@ -50,6 +50,13 @@ export default function Home() {
         India ka DevOps tools aur cloud services directory.
       </p>
 
+      <a
+        href="/submit"
+        className="mt-4 inline-block rounded-lg border border-gray-600 px-4 py-2 text-sm hover:border-gray-400"
+      >
+        + Listing submit karo
+      </a>
+
       <Suspense
         fallback={
           <p className="mt-8 text-gray-400">Listings load ho rahi hain...</p>
