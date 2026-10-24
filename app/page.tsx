@@ -35,7 +35,7 @@ async function Directory({
     .select("*")
     .eq("status", "approved")
     .order("bid_amount", { ascending: false })
-    .order("created_at", { ascending: false });
+    .order("name", { ascending: true });
 
   if (category) query = query.eq("category", category);
   if (q) query = query.or(`name.ilike.%${q}%,tagline.ilike.%${q}%`);
@@ -130,8 +130,8 @@ export default function Home({
         + Listing submit karo
       </a>
       <a
-  href="/pricing"
-  className="mt-4 ml-2 inline-block rounded-lg border border-gray-600 px-4 py-2 text-sm"
+        href="/pricing"
+        className="mt-4 ml-2 inline-block rounded-lg border border-gray-600 px-4 py-2 text-sm"
       >
         Top spot / Pricing
       </a>
